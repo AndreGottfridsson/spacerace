@@ -479,10 +479,11 @@ class StartScene extends Phaser.Scene {
     }
 
     create() {
-        // Enkel svart bakgrund med text
-        this.add.text(400, 300, 'Klicka för att starta', {
-            fontSize: '32px',
-            fill: '#fff'
+        // Enkel svart bakgrund med text på två rader
+        this.add.text(400, 300, 'Ett litet spel gjort med hjälp av\nChatGPT, Cursor och Claude', {
+            fontSize: '24px',
+            fill: '#fff',
+            align: 'center'  // Centrera texten
         }).setOrigin(0.5);
 
         // När användaren klickar
