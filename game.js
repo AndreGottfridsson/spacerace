@@ -480,7 +480,7 @@ class StartScene extends Phaser.Scene {
 
     create() {
         // Enkel svart bakgrund med text på två rader
-        this.add.text(400, 300, 'Ett litet spel gjort med hjälp av\nChatGPT, Cursor och Claude.\nKlicka för att testa.', {
+        this.add.text(400, 300, 'Ett litet spel gjort med hjälp av\nChatGPT, Cursor och Claude.\n\nStyr med piltangenterna.\n\nKlicka för att testa.', {
             fontSize: '24px',
             fill: '#fff',
             align: 'center'  // Centrera texten
